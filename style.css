@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.bg-image{
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    background-image: url('image/bg1.jpg');
+}
+.img2{
+    background-image: url('image/bg2.jpg');
+}
+.img3{
+    background-image: url('image/bg3.jpg');
+}
+.img4{
+    background-image: url('image/bg4.jpg');
+}
+.img5{
+    background-image: url('image/bg5.jpg');
+}
+.img6{
+    background-image: url('image/bg6.jpg');
+}
+.bg-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
